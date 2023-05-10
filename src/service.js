@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = 'https://localhost:7095';
+axios.defaults.baseURL = API_ADDRESS;
 
 export default {
   getTasks: async () => {
